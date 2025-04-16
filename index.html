@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USIU-Africa GPA Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>USIU-Africa GPA Calculator</h1>
+        <form id="gpaForm">
+            <div id="courseRows">
+                <!-- Course rows will be dynamically added here -->
+            </div>
+            <div class="buttons">
+                <button type="button" id="addCourse">Add Another Course</button>
+                <button type="button" id="calculateGPA">Calculate GPA</button>
+            </div>
+        </form>
+        <div id="result" class="result-container">
+            <h2>Your GPA: <span id="gpaValue">-</span></h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
